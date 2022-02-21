@@ -1,4 +1,4 @@
-package main
+package builder
 
 import "fmt"
 
@@ -32,9 +32,11 @@ func (b *SelectQueryBuilder) GetFinalQuery() string {
 		b.select_query.fields, b.select_query.table_name)
 }
 
+/*
 func main() {
 	squery := NewSelectQueryBuilder()
 	final_query := squery.SELECT("*").FROM("books").GetFinalQuery()
 
 	fmt.Println(final_query)
 }
+*/
