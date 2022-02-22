@@ -1,1 +1,3 @@
 https://medium.com/easyread/just-call-your-code-only-once-256f69ed39a8
+https://golangbyexample.com/singleton-design-pattern-go/
+https://7learn.com/blog/singleton-design-patterns
